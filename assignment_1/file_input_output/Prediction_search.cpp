@@ -17,7 +17,7 @@ const ll mo=1000000007LL;
 // structure to represent the node of n-ary tree
 struct node{ 
 
-	node *children[256];    //array of pointers pointing to successors of a node. 26 possible characters are there.
+	node *children[256];    //array of pointers pointing to successors of a node. 256 possible characters are there.
 	int isleaf;            //tells the number of occurances of string
 };
 
